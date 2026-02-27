@@ -63,7 +63,7 @@ The third borough chosen is Kensinton and Chelsea which has one of the most expe
 
 Most expensive property (Detached House) in Greenwich: £ 3,300,000  
 Least expensive property (flat) in Greenwich: £ 78,000 <br>
-Some statistical data regarding the property sales filtered for Greenwich  <br>
+Some statistical data regarding the property sales filtered for Greenwich:  <br>
 
 <img width="157" height="224" alt="image" src="https://github.com/user-attachments/assets/c6f00f6a-5d77-4935-bd43-33d766f08546" /> <br>
 
@@ -96,9 +96,25 @@ Some statistical data regarding the property sales filtered Kensinton and Chelse
 
 The sales volume in each year split up by property type. <br>
 
+### Historical Property Price Trends in London and Chosen Boroughs
 
+**Average London Property Sales Price in the Last Decade** <br>
+GBP vs Year
+<img width="833" height="426" alt="image" src="https://github.com/user-attachments/assets/4b05a1b4-b2c5-4edb-83f0-3b302d6ffe42" /> <br>
 
+**Average Greenwich Property Sales Price in the Last Decade** <br>
+GBP vs Year <br>
+<img width="839" height="436" alt="image" src="https://github.com/user-attachments/assets/77fd570a-0517-41a2-aefc-27e1357b8d58" /> <br>
 
+**Average Barnet Property Sales Price in the Last Decade** <br>
+GBP vs Year <br>
+
+<img width="876" height="439" alt="image" src="https://github.com/user-attachments/assets/6bbbd68c-5947-4d5d-9954-4055a91e4ad3" /> <br>
+
+**Average Kensinton and Chelsea Property Sales Price in the Last Decade** <br>
+GBP vs Year <br>
+
+<img width="870" height="428" alt="image" src="https://github.com/user-attachments/assets/3778e1cf-f198-4923-8d5c-14a15fe1450e" /> <br>
 
 
 
