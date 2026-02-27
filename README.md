@@ -99,7 +99,7 @@ The sales volume in each year split up by property type. <br>
 ### Historical Property Price Trends in London and Chosen Boroughs
 
 **Average London Property Sales Price in the Last Decade** <br>
-GBP vs Year
+GBP vs Year <br>
 <img width="833" height="426" alt="image" src="https://github.com/user-attachments/assets/4b05a1b4-b2c5-4edb-83f0-3b302d6ffe42" /> <br>
 
 **Average Greenwich Property Sales Price in the Last Decade** <br>
