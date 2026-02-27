@@ -23,7 +23,7 @@ This project uses the data from UK's land registry website and provides a data-d
 <h2 align="center"> 🎯 Key Objectives </h2>
 
 - Analyse the evolution of London's property market from 2015 to 2025 
-- Understand the distribution of property types(Detached, Semi-Detached, Terraced and Flat) 
+- Understand the transaction volume by property types (Detached, Semi-Detached, Terraced and Flat) in London and the boroughs
 - Identify price trends and growth patterns across years 
 - Compare market dynamics across different borough price segments
 - Analyse the data of buroughs in three different price ranges
@@ -31,10 +31,78 @@ This project uses the data from UK's land registry website and provides a data-d
   
 <h2 align="center"> 🔍 Exploratory Data Analysis (EDA) </h2>
 
-The EDA was started with Python methods <br>
+### Data Loading and Review
+This data has 100,000 rows.
+The EDA was started with Python methods: <br>
 hsd.head(20)<br>
 hsd.tail()<br>
-## Summary Statistics
+### Summary Statistics
 hsd.describe()
 
 <img width="496" height="369" alt="image" src="https://github.com/user-attachments/assets/262b7cc8-0bcf-4908-826c-31ee5697682e" />
+It is a clean dataset. The  null values are checked. The null values in some of the address columns are not required to locate the property. They do not affect this analysis.  
+The districts in the dataset refer to the 32 borroughs of London. The districts have been used to segment the property analysis.  
+
+<img width="872" height="568" alt="image" src="https://github.com/user-attachments/assets/cbb85d09-6dee-4f6d-a0e2-407b9c8ef9ab" />  
+
+From the image generated above, the boroughs with the highest transaction volume can be seen. <br>
+Highest Sales Volume by Property Types: Flats  
+Then terraced, then semi-detached and the least sales are that of detached houses. <br>
+
+The average price of a property is then compared.
+
+<img width="852" height="579" alt="image" src="https://github.com/user-attachments/assets/9f92406f-d0de-42a0-9941-414690be2ef4" />
+
+To achieve the objective of comparing the market dynamics across different borough price segments, first thing was to choose three different boroughs which represent the different socio-economic zones in London.
+The above two charts were used in conjunction to decide which three boroughs should be analysed to get a sense of the property market in London. The boroughs are chosen such that one lies in low socio-economic area, seccond one in a middle socio-economic area and the third in a high socio-economic area in London.  
+Greenwhich was chosen as it has a large sales volume and has properties in the comparatively lower socio-economic area as shown by the price graph above.  
+The second borough chosen was Barnet in the middle socio-economic area, it has sizeable sales volume and I live here!  
+The third borough chosen is Kensinton and Chelsea which has one of the most expensive properties in London. <br>
+
+### Filter Data for Greenwich
+
+Most expensive property (Detached House) in Greenwich: £ 3,300,000  
+Least expensive property (flat) in Greenwich: £ 78,000 <br>
+Some statistical data regarding the property sales filtered for Greenwich  
+
+<img width="157" height="224" alt="image" src="https://github.com/user-attachments/assets/c6f00f6a-5d77-4935-bd43-33d766f08546" />
+
+<img width="840" height="416" alt="image" src="https://github.com/user-attachments/assets/a0ebf695-04a7-42cf-9e65-e6b4e9add74c" />  
+
+The sales volume in each year split up by property type.
+
+### Filter Data for Barnet
+
+Most expensive property (Detached House) in Barnet: £18,300,000
+Least expensive property (semi-detached House) in Barnet: £20,000
+Some statistical data regarding the property sales filtered for Barnet:
+
+<img width="167" height="227" alt="image" src="https://github.com/user-attachments/assets/e2105586-f236-4844-b17e-4be9c0026e19" /> 
+
+<img width="729" height="366" alt="image" src="https://github.com/user-attachments/assets/68e1f180-4eff-4c57-8fb2-1a739c380b97" />
+
+The sales volume in each year split up by property type. <br>
+
+### Filter Data by Kensinton and Chelsea  
+
+Most expensive property (Terraced House) in Kensinton and Chelsea: £33,000,000
+Least expensive property (Flat) in Kensinton and Chelsea: £13,500  
+Some statistical data regarding the property sales filtered Kensinton and Chelsea:
+
+<img width="168" height="233" alt="image" src="https://github.com/user-attachments/assets/4acd6652-00fc-43bd-afe3-d6a71e740412" />
+
+
+<img width="814" height="416" alt="image" src="https://github.com/user-attachments/assets/fcb665db-9641-458f-ad4a-cc06502c99cb" />
+
+The sales volume in each year split up by property type. <br>
+
+
+
+
+
+
+
+
+
+
+
