@@ -119,9 +119,14 @@ GBP vs Year <br>
 
 The above four line graphs show the average property price trends in the last decade. The graph which depicts average London prices shows stable growth throughout.
 However, there's a fall in the average price from 2023 onwards. In the Borough of Greenwich, there's stable growth till 2022 and after that there's volatility.
-In the Borough of Barnet, the property market shows a lot more volatility
+In the Borough of Barnet, the property market shows a lot more volatility in the earlier years till 2019, after which there's sharp growth, the a decline in process from 2024 onwards.
+In Kensington and Chelsea, there is the most amount of fluctuation with prices decreasing from 2018 to 2021, an increase till 2022, then there's been a decrease ever since.
 
+<h2 align="center">🗝️ Key Insights </h2>
 
+- Property market is dominated with flats- 68% of the total sales, followed by terraced houses which are 23.7%, then semi-deatched houses which make up 6.6% and only 1.8% of total houses make up for the sale of detached houses.
+- There is a sizeable variation between the prices of the properties in different boroughs in London. The Central Boroughs have significantly higher priced properties. the maximum price of a property in Greenwich is 10 times less than the maximum price in Kensington and Chelsea.  
+- 
 
 
 
