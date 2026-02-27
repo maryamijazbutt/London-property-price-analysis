@@ -63,9 +63,9 @@ The third borough chosen is Kensinton and Chelsea which has one of the most expe
 
 Most expensive property (Detached House) in Greenwich: £ 3,300,000  
 Least expensive property (flat) in Greenwich: £ 78,000 <br>
-Some statistical data regarding the property sales filtered for Greenwich  
+Some statistical data regarding the property sales filtered for Greenwich  <br>
 
-<img width="157" height="224" alt="image" src="https://github.com/user-attachments/assets/c6f00f6a-5d77-4935-bd43-33d766f08546" />
+<img width="157" height="224" alt="image" src="https://github.com/user-attachments/assets/c6f00f6a-5d77-4935-bd43-33d766f08546" /> <br>
 
 <img width="840" height="416" alt="image" src="https://github.com/user-attachments/assets/a0ebf695-04a7-42cf-9e65-e6b4e9add74c" />  
 
@@ -73,23 +73,23 @@ The sales volume in each year split up by property type.
 
 ### Filter Data for Barnet
 
-Most expensive property (Detached House) in Barnet: £18,300,000
-Least expensive property (semi-detached House) in Barnet: £20,000
-Some statistical data regarding the property sales filtered for Barnet:
+Most expensive property (Detached House) in Barnet: £18,300,000  <br>
+Least expensive property (semi-detached House) in Barnet: £20,000  <br>
+Some statistical data regarding the property sales filtered for Barnet: <br>
 
-<img width="167" height="227" alt="image" src="https://github.com/user-attachments/assets/e2105586-f236-4844-b17e-4be9c0026e19" /> 
+<img width="167" height="227" alt="image" src="https://github.com/user-attachments/assets/e2105586-f236-4844-b17e-4be9c0026e19" /> <br>
 
-<img width="729" height="366" alt="image" src="https://github.com/user-attachments/assets/68e1f180-4eff-4c57-8fb2-1a739c380b97" />
+<img width="729" height="366" alt="image" src="https://github.com/user-attachments/assets/68e1f180-4eff-4c57-8fb2-1a739c380b97" /> <br>
 
 The sales volume in each year split up by property type. <br>
 
 ### Filter Data by Kensinton and Chelsea  
 
-Most expensive property (Terraced House) in Kensinton and Chelsea: £33,000,000
-Least expensive property (Flat) in Kensinton and Chelsea: £13,500  
-Some statistical data regarding the property sales filtered Kensinton and Chelsea:
+Most expensive property (Terraced House) in Kensinton and Chelsea: £33,000,000  <br>
+Least expensive property (Flat) in Kensinton and Chelsea: £13,500  <br>
+Some statistical data regarding the property sales filtered Kensinton and Chelsea: <br>
 
-<img width="168" height="233" alt="image" src="https://github.com/user-attachments/assets/4acd6652-00fc-43bd-afe3-d6a71e740412" />
+<img width="168" height="233" alt="image" src="https://github.com/user-attachments/assets/4acd6652-00fc-43bd-afe3-d6a71e740412" /> <br>
 
 
 <img width="814" height="416" alt="image" src="https://github.com/user-attachments/assets/fcb665db-9641-458f-ad4a-cc06502c99cb" />
