@@ -31,16 +31,17 @@ This project uses the data from UK's land registry website and provides a data-d
   
 <h2 align="center"> 🔍 Exploratory Data Analysis (EDA) </h2>
 
-### Data Loading and Review
-This data has 100,000 rows.
+### Data Loading and Overview
+It is a clean dataset with 100,000 rows.
+This data has 100,000 rows. The  null values are checked. The null values in some of the address columns are not required to locate the property. They do not affect this analysis. 
 The EDA was started with Python methods: <br>
 hsd.head(20)<br>
 hsd.tail()<br>
 ### Summary Statistics
 hsd.describe()
 
-<img width="496" height="369" alt="image" src="https://github.com/user-attachments/assets/262b7cc8-0bcf-4908-826c-31ee5697682e" />
-It is a clean dataset. The  null values are checked. The null values in some of the address columns are not required to locate the property. They do not affect this analysis.  
+<img width="496" height="369" alt="image" src="https://github.com/user-attachments/assets/262b7cc8-0bcf-4908-826c-31ee5697682e" /> <br>
+ 
 The districts in the dataset refer to the 32 borroughs of London. The districts have been used to segment the property analysis.  
 
 <img width="872" height="568" alt="image" src="https://github.com/user-attachments/assets/cbb85d09-6dee-4f6d-a0e2-407b9c8ef9ab" />  
@@ -116,7 +117,9 @@ GBP vs Year <br>
 
 <img width="870" height="428" alt="image" src="https://github.com/user-attachments/assets/3778e1cf-f198-4923-8d5c-14a15fe1450e" /> <br>
 
-
+The above four line graphs show the average property price trends in the last decade. The graph which depicts average London prices shows stable growth throughout.
+However, there's a fall in the average price from 2023 onwards. In the Borough of Greenwich, there's stable growth till 2022 and after that there's volatility.
+In the Borough of Barnet, the property market shows a lot more volatility
 
 
 
