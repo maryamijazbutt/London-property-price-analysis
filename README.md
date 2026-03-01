@@ -33,7 +33,7 @@ This project uses the data from UK's land registry website and provides a data-d
 
 ### Data Loading and Overview
 It is a clean dataset with 100,000 rows.
-This data has 100,000 rows. The  null values are checked. The null values in some of the address columns are not required to locate the property. They do not affect this analysis. 
+The  null values are checked. The null values in some of the address columns are not required to locate the property. They do not affect this analysis as properties have been segmented by boroughs in the analysis. 
 The EDA was started with Python methods: <br>
 hsd.head(20)<br>
 hsd.tail()<br>
@@ -42,7 +42,7 @@ hsd.describe()
 
 <img width="496" height="369" alt="image" src="https://github.com/user-attachments/assets/262b7cc8-0bcf-4908-826c-31ee5697682e" /> <br>
  
-The districts in the dataset refer to the 32 borroughs of London. The districts have been used to segment the property analysis.  
+The districts in the dataset refer to the 32 boroughs of London. The districts have been used to segment the property analysis.  
 
 <img width="872" height="568" alt="image" src="https://github.com/user-attachments/assets/cbb85d09-6dee-4f6d-a0e2-407b9c8ef9ab" />  
 
@@ -50,7 +50,7 @@ From the image generated above, the boroughs with the highest transaction volume
 Highest Sales Volume by Property Types: Flats  
 Then terraced, then semi-detached and the least sales are that of detached houses. <br>
 
-The average price of a property is then compared.
+The average price of properties in each borough is then compared.
 
 <img width="852" height="579" alt="image" src="https://github.com/user-attachments/assets/9f92406f-d0de-42a0-9941-414690be2ef4" />
 
@@ -122,11 +122,18 @@ However, there's a fall in the average price from 2023 onwards. In the Borough o
 In the Borough of Barnet, the property market shows a lot more volatility in the earlier years till 2019, after which there's sharp growth, the a decline in process from 2024 onwards.
 In Kensington and Chelsea, there is the most amount of fluctuation with prices decreasing from 2018 to 2021, an increase till 2022, then there's been a decrease ever since.
 
-<h2 align="center">🗝️ Key Insights </h2>
+<h2 align="center">🗝️ Key Insights and Data Driven Conclusions </h2>
 
-- Property market is dominated with flats- 68% of the total sales, followed by terraced houses which are 23.7%, then semi-deatched houses which make up 6.6% and only 1.8% of total houses make up for the sale of detached houses.
+- Property market is dominated by flats - 68% of the total sales, followed by terraced houses which are 23.7%, then semi-deatched houses which make up 6.6% and only 1.8% of total houses make up for the sale of detached houses.
 - There is a sizeable variation between the prices of the properties in different boroughs in London. The Central Boroughs have significantly higher priced properties. the maximum price of a property in Greenwich is 10 times less than the maximum price in Kensington and Chelsea.  
-- 
+- The average prices in boroughs in higher socio-economic areas have been more volatile more but the property market in lower economic zones have shown more stability and growth keeping the London property market stable and resilient.
+- The median prices are more representative of the price data than the mean due to the large disparity of prices in the bulk of sales and a few ultra high-end sales.
+
+  <h2 align="center"> Limitations of this Analysis and Next Steps </h2>
+  
+Only the dowloaded data has been used for the above analysis. No external factors have been taken into account that impact the property market e.g. cost of living crisis or any governement policy changes like stamp duty, help to buy schemes etc. 
+Some of the next steps that would be interesting to explore would be looking at /m<sup>2</sup> price of properties, seeing how the property price varies according to number of bedrooms and bathrooms. It would also be interesting to create a geospatial representation of prices in different boroughs.
+  
 
 
 
